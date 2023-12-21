@@ -17,17 +17,17 @@
             <br><br>
             <div class="Input">
                 <input type="text" name="nome" id="nome" class="inputUser" required>
-                <label for="nome"> Nome completo </label>
+                <label for="nome" class="labelInput"> Nome completo </label>
             </div>
             <br><br>            
             <div class="Input">
                 <input type="email" name="email" id="email" class="inputUser" required>
-                <label for="email"> Email </label>
+                <label for="email" class="labelInput"> Email </label>
             </div>
             <br><br>
             <div class="Input">
                 <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                <label for="telefone"> Telefone </label>
+                <label for="telefone" class="labelInput"> Telefone </label>
             </div>
             
             <p> Gênero </p>
@@ -47,20 +47,20 @@
             <br><br>
             <div class="Input">
                 <input type="cidade" name="cidade" id="cidade" class="inputUser" required>
-                <label for="cidade"> Cidade </label>
+                <label for="cidade" class="labelInput"> Cidade </label>
             </div>
             <br><br>            
             <div class="Input">
                 <input type="estado" name="estado" id="estado" class="inputUser" required>
-                <label for="estado"> Estado </label>
+                <label for="estado" class="labelInput"> Estado </label>
             </div>
             <br><br>
             <div class="Input">
                 <input type="logradouro" name="logradouro" id="logradouro" class="inputUser" required>
-                <label for="logradouro"> Logradouro </label>
+                <label for="logradouro" class="labelInput"> Logradouro </label>
             </div>
             <br><br>
-            <div>
+            <div class="botao">
                 <input type="submit" name="submit" id="submit">
             </div>
 
