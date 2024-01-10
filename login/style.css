@@ -68,18 +68,26 @@ legend {
     color: rgb(11, 175, 11);
 }
 
-.botao {
+#submit {
     text-align: center;
     background: none;
-    background-color: rgb(8, 158, 8);   
+    background-image: rgb(3, 95, 3);   
     border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-image: rgb(34, 139, 34);
 }
 
 
 #aniversario {
     border: none;
-    padding: 3px;
-    border-radius: 3px;
+    padding: 5px;
+    border-radius: 10px;
     background-color: rgb(4, 75, 4);
     outline: none;
     font-size: 14px;
